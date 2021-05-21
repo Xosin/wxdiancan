@@ -33,6 +33,7 @@ public class AuthorizeAspect {
     }
 
     //查询cookie
+    //判断是否登录
     @Before("verify()")
     public void doVerify() {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();

@@ -17,7 +17,7 @@
   
   
   padding-left: 30rpx;
-  border: 1px solid #d0f403;
+  border: 1px solid #d0f40300;
   border-radius: 30rpx;
 }
 

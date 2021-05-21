@@ -11,7 +11,7 @@
   box-sizing: border-box;
 } 
 .bc_green{
-  background-color: #f4c903;
+  background-color: #F596AA;
 }
 .bc_white{
    background-color: #ffffff;
@@ -305,7 +305,7 @@
   text-align: center;
   position: fixed;
   left: 0;
-  background-color: #ff9600;
+  background-color: #F596AA;
   color: #fff;
 }
 
@@ -358,7 +358,7 @@
   margin-left: 40rpx;
   font-size: 14px;
   padding-bottom: 10rpx;
-  color: #ff9600;
+  color: #F596AA;
 }
 
 .price-box {

@@ -6,7 +6,7 @@ Page({
     // 顶部菜单切换
     navbar: ["待上餐", "已取消", "待评价", "已完成"],
     // 默认选中菜单
-    currentTab: 0,
+    currentTab: 0, 
     isShowComment: false, //是否显示评论框
     list: []
   },

@@ -134,6 +134,7 @@ public class WxOrderUtils {
         }
 
         List<WxOrderDetail> orderDetailList = orderDetailRepository.findByOrderId(orderId);
+        System.out.println(orderDetailList);
         if (CollectionUtils.isEmpty(orderDetailList)) {
             throw new DianCanException(ResultEnum.ORDERDETAIL_NOT_EXIST);
         }

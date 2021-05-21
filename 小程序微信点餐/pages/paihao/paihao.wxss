@@ -6,7 +6,7 @@
 
 .paihao {
   /* 排号 */
-  background: gold;
+  background: #F596AA;
   display: flex;
   flex-direction: column;
   width: 450rpx;

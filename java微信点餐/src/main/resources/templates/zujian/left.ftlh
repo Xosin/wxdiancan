@@ -25,7 +25,7 @@
         left: 0;
         width: 180px;
         height: 100%;
-        background-color: #70C570;
+        background-color: #F596AA;
         z-index: 9999;
         transition: all 0.3s ease-in;
     }

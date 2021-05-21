@@ -18,7 +18,7 @@
   },
   "tabBar": {
     "color": "#Fc0",
-    "selectedColor": "#f4c903",
+    "selectedColor": "#F596AA",
     "borderStyle": "white",
     "list": [
       {
@@ -27,12 +27,7 @@
         "pagePath": "pages/index/index",
         "text": "首页"
       },
-      {
-        "selectedIconPath": "image/meok.png",
-        "iconPath": "image/meno.png",
-        "pagePath": "pages/me/me",
-        "text": "推荐"
-      },
+
       {
         "selectedIconPath": "image/meok.png",
         "iconPath": "image/meno.png",

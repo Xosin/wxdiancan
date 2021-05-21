@@ -1,5 +1,5 @@
 page {
-  background: #f4c903;
+  background: #F596AA;
 }
 
 .container {
@@ -29,14 +29,14 @@ page {
   /* 输入文本框的公有属性 */
   width: 90%;
   height: 85px;
-  border: 1px solid #f4c903;
+  border: 1px solid #F596AA;
 }
 
 .textarea25px {
   width: 100%;
   padding-left: 30rpx;
   height: 25px;
-  border: 2px solid #f4c903;
+  border: 2px solid #F596AA;
   border-radius: 99rpx;
 }
 

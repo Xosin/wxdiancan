@@ -1,11 +1,11 @@
 <html>
 <#include "../zujian/top.ftlh">
-<body style=" background: url(/diancan/img/bg.png)
+<body style=" background: url(/diancan/img/shouye.png)
 no-repeat center center ; background-size: cover;">
 <div class="modal-dialog" style="margin-top: 10%;">
     <div class="modal-content">
         <div class="modal-header">
-            <h4 class="modal-title text-center" id="myModalLabel">登录</h4>
+            <h4 class="modal-title text-center" id="myModalLabel" >登录</h4>
         </div>
         <div class="modal-body" id="model-body">
             <div class="form-group">
@@ -74,7 +74,6 @@ no-repeat center center ; background-size: cover;">
                     "verifyCode":$("#verifyCode").val()
                 },function(response){
                     if(response){
-                        console.log(response);
                         alert("登录验证通过");
                         console.log("登录成功", data)
                         $("#mainContainer").html(data);
