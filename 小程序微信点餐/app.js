@@ -1,4 +1,5 @@
 //app.js
+//const ip = "http://192.168.43.108:8080"
 App({
   //创建towxml对象，供小程序页面使用
   globalData: {
@@ -8,7 +9,8 @@ App({
     vipInfo: {},
     openid: null,
     // baseUrl: 'http://localhost:8080/diancan' //本地调试
-    baseUrl: 'http://192.168.9.97:8080/diancan' //真机调试,本机ip
+    //baseUrl: 'http://192.168.9.97:8080/diancan' //真机调试,本机ip
+    baseUrl: 'http://192.168.43.108:8080/diancan'  //热点ip
   },
   onLaunch: function () {
     //云开发初始化
